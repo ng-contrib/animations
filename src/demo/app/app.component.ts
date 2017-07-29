@@ -1,12 +1,12 @@
-import { trigger, transition, useAnimation, style, animate } from '@angular/animations';
+import { trigger, transition, useAnimation, animateChild, style, animate } from '@angular/animations';
 import { Component } from '@angular/core';
-import { LibService, fadeIn, fadeOut } from 'quickstart-lib';
+import { LibService, fadeIn } from 'quickstart-lib';
 
 @Component({
   animations: [
     trigger('fade', [
-      transition(':enter', useAnimation(fadeIn)),
-      transition(':leave', useAnimation(fadeOut))
+      transition(':enter', useAnimation(fadeIn), { delay: '10000ms', params: { durat: '300ms' }}),
+      // transition(':leave', useAnimation(fadeOut))
     ])
   ],
   selector: 'demo-app',

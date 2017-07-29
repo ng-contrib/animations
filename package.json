@@ -35,17 +35,17 @@
     "lint": "tslint ./src/**/*.ts -t verbose"
   },
   "peerDependencies": {
-    "@angular/animations": "git://github.com/angular/animations-builds.git#animations-preview",
-    "@angular/core": "git://github.com/angular/core-builds.git#animations-preview"
+    "@angular/animations": "git://github.com/angular/animations-builds.git#master",
+    "@angular/core": "git://github.com/angular/core-builds.git#master"
   },
   "devDependencies": {
-    "@angular/animations": "git://github.com/angular/animations-builds.git#animations-preview",
-    "@angular/common": "git://github.com/angular/common-builds.git#animations-preview",
-    "@angular/compiler": "git://github.com/angular/compiler-builds.git#animations-preview",
-    "@angular/compiler-cli": "git://github.com/angular/compiler-cli-builds.git#animations-preview",
-    "@angular/core": "git://github.com/angular/core-builds.git#animations-preview",
-    "@angular/platform-browser": "git://github.com/angular/platform-browser-builds.git#animations-preview",
-    "@angular/platform-browser-dynamic": "git://github.com/angular/platform-browser-dynamic-builds.git#animations-preview",
+    "@angular/animations": "git://github.com/angular/animations-builds.git#master",
+    "@angular/common": "git://github.com/angular/common-builds.git#master",
+    "@angular/compiler": "git://github.com/angular/compiler-builds.git#master",
+    "@angular/compiler-cli": "git://github.com/angular/compiler-cli-builds.git#master",
+    "@angular/core": "git://github.com/angular/core-builds.git#master",
+    "@angular/platform-browser": "git://github.com/angular/platform-browser-builds.git#master",
+    "@angular/platform-browser-dynamic": "git://github.com/angular/platform-browser-dynamic-builds.git#master",
     "@types/jasmine": "2.5.47",
     "@types/node": "^7.0.18",
     "camelcase": "^4.1.0",
